@@ -136,7 +136,7 @@ var app3 = new Vue({
 <div id="app-4">
   <ol>
     <li v-for="todo in todos">
-      {{ todo.text }}
+      {{ todos.text }}
     </li>
   </ol>
 </div>
